@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import BackgroundAnimation from './components/BackgroundAnimation';
 import Hero from './sections/Hero';
 
 import Education from './sections/Education';
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <div className="relative min-h-screen">
+      <BackgroundAnimation />
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 to-purple-500 origin-left z-50"
