@@ -81,7 +81,7 @@ export const EXPERIENCE_DATA = [
     id: 1,
     company: "Gnapi Technologies",
     companyUrl: "https://gnapitechnologies.com/index.html",
-    role: "Full Stack Developer Intern",
+    role: "Associate Software Engineer",
     duration: "5 February 2026 – Present",
     responsibilities: [
       "Developed web and mobile applications.",
@@ -103,7 +103,19 @@ export const PROJECTS_DATA = [
     title: "Live Streaming Mobile App",
     description: "Developed a sports live-streaming platform with multi-camera support, React Native frontend, NestJS backend, PostgreSQL database, Prisma ORM, and Supabase integration.",
     technologies: ["React Native", "Expo", "NestJS", "PostgreSQL", "Prisma", "Supabase"],
-    image: "https://via.placeholder.com/600x400/1e3a8a/ffffff?text=Live+Streaming+App"
+    image: "https://via.placeholder.com/600x400/1e3a8a/ffffff?text=Live+Streaming+App",
+    images: [
+      "/assets/projects/live-streaming/ss1.jpg",
+      "/assets/projects/live-streaming/ss2.jpg",
+      "/assets/projects/live-streaming/ss3.jpg",
+      "/assets/projects/live-streaming/ss4.jpg",
+      "/assets/projects/live-streaming/ss5.jpg",
+      "/assets/projects/live-streaming/ss6.jpg",
+      "/assets/projects/live-streaming/ss7.jpg",
+      "/assets/projects/live-streaming/ss8.jpg",
+      "/assets/projects/live-streaming/ss9.jpg",
+      "/assets/projects/live-streaming/ss10.jpg"
+    ]
   },
   {
     id: 2,
